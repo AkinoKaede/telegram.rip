@@ -13,20 +13,46 @@
                 Helvetica Neue, Arial, Noto Sans, sans-serif;
             ;
         }
+
+        #main {
+            text-align: center;
+        }
+
+        .tombstone img {
+            max-width: 100%;
+        }
+
+        #footer {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        #footer a {
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
-    <div style="text-align: center;">
+    <main id="main">
         <div id="epitaph">
             <h1>Telegram</h1>
             <b>You sell the users' usernames, you break promises.</b>
             <h2>R.I.P.</h2>
         </div>
-        <div id="tombstone">
-            <img src="tombstone.png" style="max-width: 100%;">
+        <div id="tombstone" class="tombstone">
+            <img src="tombstone.png">
         </div>
-    </div>
+    </main>
+
+    <footer id="footer">
+        <div>
+            Copyleft <strong><span>Telegram.RIP</span></strong> |
+            <a href="LICENSE">CC0 1.0 Universal</a> |
+            <a href="https://github.com/AkinoKaede/telegram.rip">GitHub</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
